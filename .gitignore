@@ -1,0 +1,79 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+out/
+client/dist/
+client/build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env.production
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+drizzle/migrations/meta/ # optional: include if you want meta tracked
+
+# Test coverage
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V9
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Vite
+.vite/
+
+# Cache
+.eslintcache
+.turbo/
+.cache/
+
+# Temporary
+tmp/
+temp/
+*.tmp
+*.temp
